@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    background-color: beige;
+    min-height: 600px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+header .logo{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    padding: 1% 3%;
+}
+
+.mobile{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    display: none;
+    transition: 2s;
+}
+.mobile ul {
+    list-style: none;
+}
+
+.mobile ul li {
+    float: none;
+    padding: 1px;
+}
+
+
+.mobile ul li a {
+    text-decoration: none;
+    float: none;
+    display: block;
+    padding: 10px 10px;
+    background: #ce74ab;
+    text-align: center;
+    color: #ee0c0c;
+}
+
+.bar {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.bar:hover .mobile {
+    display: block;
+    transition: 2s;
+}
+
+
+header .menu{
+    width: 70%;
+    overflow: hidden;
+
+}
+
+header > .menu > ul {
+    list-style: none;
+
+}
+
+header > .menu > ul > li {
+    float: left;
+}
+
+header > .menu > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #080808;
+    display: block;
+    padding: 17px 25px;
+
+}
+header > .menu > ul > li:hover a{
+    background-color: #30b16a;
+    color: #FFFFFF;
+}
+
+.six{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+.six .six-in{
+    width: 50%;
+    margin: auto ;
+}
+.six .k{
+    padding: 1% 7%;
+    border-radius: 10px;
+}
+
+.six .h{
+    padding: 0.5% 1%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #080808;
+    cursor: pointer;
+}
+.six .six-in img{
+    width: 100%;
+}
+
+
+
+footer{
+    width: 100%;
+    background: rgb(51, 47, 47);
+    text-align: center;
+    padding: 2% ;
+    color: #FFFFFF;
+}

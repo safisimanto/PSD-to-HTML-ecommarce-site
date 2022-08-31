@@ -1,0 +1,101 @@
+
+
+@media screen and (max-width:580px){
+
+    header .logo{
+        width: 50%;
+    }
+    header .menu{
+        display: none;
+    
+    }
+    header .bar {
+        display: block;
+        font-size: 20px;
+    }
+
+
+    .two .a{
+        width: 100%;
+    }
+    .two .b{
+        width: 49%;
+        float: left;
+        overflow: hidden;
+        margin: 0 1%;
+    }
+    .two .c{
+        width: 49%;
+        overflow: hidden;
+    }
+    .two .d{
+        width: 100%;
+    }
+    .three .a{
+        width: 98.5%;
+        background-color: rgb(226, 238, 238);
+        text-align: center;
+        padding: 0 0.5%;
+        margin-bottom: 1% ;
+        
+    }
+    .three .b{
+        width: 98.5%;
+        background-color: rgb(226, 238, 238);
+        text-align: center;
+        padding: 0 0.5%;
+        margin-bottom: 1% ;
+        
+    }
+    .three .c{
+        width: 98.5%;
+        background-color: rgb(226, 238, 238);
+        text-align: center;
+        padding: 0 0.5%;
+        margin-bottom: 1% ;
+        
+    }
+    .three .d{
+        width: 98.5%;
+        background-color: rgb(226, 238, 238);
+        text-align: center;
+        padding: 0 0.5%;
+        
+    }
+
+    .four .a{
+        width: 99%;
+        background-color: rgb(226, 238, 238);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        padding: 0.5% 0.5%;
+    }
+    .four .b{
+        width: 99%;
+        background-color: rgb(226, 238, 238);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        padding: 0.5% 0.5%;
+    }
+
+    .four .c{
+        width: 99%;
+        background-color: rgb(226, 238, 238);
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        padding: 0.5% 0.5%;
+    }
+
+    .five .a{
+        width: 100%;
+    }
+    .five .b{
+        width: 100%;
+        min-height: 316px;
+        padding: 1% 1%;
+    }
+
+}
